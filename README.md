@@ -23,7 +23,7 @@ git branch Mobile_testing
 ```bash
 git push -u --all
 ```
-4. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 ```bash
 git checkout Bug_Reports
 vim pattern_bug_report.txt
@@ -41,24 +41,24 @@ vim pattern_bug_report.txt
 #  ESC 
 #  :wq
 ```
-6. Запушить структуру багрепорта на внешний репозиторий
+4. Запушить структуру багрепорта на внешний репозиторий
 ```bash
 git add .
 git commit -m "bug report"
 git push
 ```
-7. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку Bag Reports в Main
 ```bash
 git merge Bug_Reports
 ```
-9. Запушить main на внешний репозиторий.
+6. Запушить main на внешний репозиторий.
 ```bash
 cd ..
 git add .
 git commit -m "merge vetok"
 git push
 ```
-11. В ветке CheckLists набросать структуру чек листа.
+7. В ветке CheckLists набросать структуру чек листа.
 ```bash
 git checkout CheckList
 vim pattern_checklist.txt
@@ -70,17 +70,17 @@ vim pattern_checklist.txt
 #  ESC 
 #  :wq
 ```
-13. Запушить структуру на внешний репозиторий
+8. Запушить структуру на внешний репозиторий
 ```bash
 git add .
 git commit -m "checlistt"
 git push
 ```
-14. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 ```bash
 Интуитивно понятно (в нужном  внешнем репозитории сверху будет кнопка для pull. Далее кликаем по зеленым кнопкам и все сохраняем)
 ```
-16. Синхронизировать Внешнюю и Локальную ветки Main
+10. Синхронизировать Внешнюю и Локальную ветки Main
 ```bash
 git checkout master
 git pull
