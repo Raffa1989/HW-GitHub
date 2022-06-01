@@ -69,6 +69,7 @@ vim pattern_checklist.txt
 4. Comment
 #  ESC 
 #  :wq
+```
 13. Запушить структуру на внешний репозиторий
 ```bash
 git add .
