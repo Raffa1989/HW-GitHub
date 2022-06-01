@@ -55,7 +55,7 @@ git merge Bug_Reports
 ```bash
 cd ..
 git add .
-git commit -m "merge vetok
+git commit -m "merge vetok"
 git push
 ```
 11. В ветке CheckLists набросать структуру чек листа.
