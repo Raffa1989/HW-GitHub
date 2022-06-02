@@ -27,7 +27,7 @@ git push -u --all
 ```bash
 git checkout Bug_Reports
 vim pattern_bug_report.txt
-#  прописываю 
+#  перехожу в режим редактирования (I) и прописываю 
 1. Summary
 2. Project
 3. Component
@@ -62,7 +62,7 @@ git push
 ```bash
 git checkout CheckList
 vim pattern_checklist.txt
-#  прописываю
+#  перехожу в режим редактирования (I) и прописываю
 1. ID
 2. Tester Action
 3. Actual Result
